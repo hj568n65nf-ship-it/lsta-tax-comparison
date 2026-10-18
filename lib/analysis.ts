@@ -5,6 +5,8 @@ export type Page = {number:number;text:string};
 export type Evidence = {page:number;quote:string;section:string};
 export type Finding = {id:string;status:string;difference:string;implication:string;action:string;evidence:Evidence[];title?:string;related_model_ids?:string[];model_context?:{section:string;quote:string;explanation:string};drafting_changes?:DraftingChange[]};
 export const statuses=['no change needed','substantively equivalent','materially modified','partially covered','not found','uncertain','not applicable'];
+// A leading asterisk is the reference annotation, not contractual wording.
+const comparisonText=(text:string)=>text.trim().replace(/^\*\s*/, '').replace(/\s+/g,' ');
 export function validateReport(raw:any,pages:Page[]) {
  if(!Array.isArray(raw?.items)||!Array.isArray(raw?.additional))throw new Error('The model returned an incomplete report. Please retry.');
  const validate=(r:any):Finding=>{
@@ -13,7 +15,7 @@ export function validateReport(raw:any,pages:Page[]) {
   const invalid=evidence.length!==r.evidence.length;
   const unsupported=!evidence.length&&!['not found','uncertain','not applicable'].includes(r.status);
   const model=reference.items.find(x=>x.id===r.id);
-  const exact=!!model&&!invalid&&!unsupported&&['substantively equivalent','no change needed'].includes(r.status)&&evidence.some((e:Evidence)=>e.quote.trim().replace(/\s+/g,' ')===model.model_text.trim().replace(/\s+/g,' '));
+  const exact=!!model&&!invalid&&!unsupported&&['substantively equivalent','no change needed'].includes(r.status)&&evidence.some((e:Evidence)=>comparisonText(e.quote)===comparisonText(model.model_text));
   const drafting_changes=invalid||unsupported||exact?[]:verifiedDraftingChanges(r.drafting_changes,evidence,model?.model_text||'',pages);
   const related_model_ids=Array.isArray(r.related_model_ids)?[...new Set<string>(r.related_model_ids.filter((id:any)=>typeof id==='string'&&reference.items.some(x=>x.id===id)))]:[];
   const context=r.model_context;
