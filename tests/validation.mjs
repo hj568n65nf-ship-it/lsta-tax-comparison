@@ -77,7 +77,7 @@ const originalFetch=globalThis.fetch;
 try {
  const calls=[];let fallbackNotices=0;
  const ok=()=>new Response(JSON.stringify({model:'test/free',choices:[{finish_reason:'stop',message:{content:JSON.stringify(base())}}]}));
- globalThis.fetch=async(url,options)=>{const body=JSON.parse(options.body);calls.push(body.model);return calls.length===1?new Response('{}',{status:402}):ok();};
+ globalThis.fetch=async(url,options)=>{assert.equal(options.signal,undefined,'AI requests must have no app-imposed deadline');const body=JSON.parse(options.body);calls.push(body.model);return calls.length===1?new Response('{}',{status:402}):ok();};
  const paid=await analyzeInBrowser(requestPages,'borrower',{apiKey:'test',model:'openai/gpt-6.1-sol'},()=>fallbackNotices++);
  assert.deepEqual(calls,['openai/gpt-6.1-sol','openrouter/free']);assert.equal(paid.usedFreeFallback,true);assert.equal(fallbackNotices,1);
  calls.length=0;globalThis.fetch=async(url,options)=>{calls.push(JSON.parse(options.body).model);return new Response('{}',{status:429});};
