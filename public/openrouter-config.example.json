@@ -1,0 +1,4 @@
+{
+  "apiKey": "YOUR_BUDGET_LIMITED_OPENROUTER_KEY",
+  "model": "openai/gpt-4.1"
+}

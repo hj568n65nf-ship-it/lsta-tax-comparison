@@ -1,0 +1,49 @@
+name: Publish LSTA Tax Comparison
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: pnpm/action-setup@v4
+        with:
+          version: '11.25.0'
+          run_install: false
+      - run: pnpm install --frozen-lockfile
+      - name: Configure browser AI
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
+        run: |
+          node --input-type=module <<'JS'
+          import fs from 'node:fs';
+          if (!process.env.OPENROUTER_API_KEY) throw new Error('Add the OPENROUTER_API_KEY repository secret before publishing.');
+          fs.writeFileSync('public/openrouter-config.json',JSON.stringify({apiKey:process.env.OPENROUTER_API_KEY,model:process.env.OPENROUTER_MODEL||'openai/gpt-4.1'}));
+          JS
+      - run: node tests/validation.mjs
+      - run: pnpm exec tsc --noEmit
+      - run: cp node_modules/pdfjs-dist/build/pdf.worker.min.mjs public/pdf.worker.min.mjs
+      - run: pnpm run build:pages
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: pages-dist
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,107 @@
+{
+  "TAX-01": [
+    "Defines Code as the Internal Revenue Code of 1986."
+  ],
+  "TAX-02": [
+    "Connection Income Taxes are Other Connection Taxes imposed on or measured by net income, or imposed as franchise or branch-profits taxes. The definition combines a type-of-tax test with the independent-connection concept in Other Connection Taxes.",
+    "The Increased Costs clause expressly excludes this category from compensation. Read both provisions with Excluded Taxes: changing which taxes fall within one definition does not necessarily change a separate reimbursement route in the same way."
+  ],
+  "TAX-03": [
+    "Excluded Taxes generally cannot be recovered through the model\u2019s tax gross-up or borrower tax indemnity. They include specified connection-related income, franchise and branch-profits taxes; certain U.S. federal withholding under law in effect when a lender acquires its interest or changes its lending office; taxes attributable to documentation failures; and FATCA withholding.",
+    "The acquisition and office-change exclusion has exceptions, including certain borrower-requested replacement assignments and carryover of an existing tax-payment entitlement. This is not a blanket exclusion of all withholding known at closing. The separate Increased Costs clause and lender-to-agent indemnity must also be checked before concluding that an Excluded Tax can never be reimbursed."
+  ],
+  "TAX-04": [
+    "Defines FATCA, with limits on later statutory changes. Its documentation clause separately includes future amendments."
+  ],
+  "TAX-05": [
+    "Classifies a lender as foreign relative to the borrower\u2019s U.S.-person status or tax-residence jurisdiction."
+  ],
+  "TAX-06": [
+    "Indemnified Taxes identify the principal taxes economically allocated to the borrower or selected loan parties. The first limb covers taxes imposed on or with respect to payments under the loan documents, other than Excluded Taxes. The second adds Other Taxes to the extent not already covered.",
+    "The payment-related limit matters: the first limb is not a promise to cover every tax a lender incurs. The selected borrower/loan-party wording affects which obligations are covered. Read this definition with the exclusions and the operative gross-up and indemnity clauses, which supply the timing, beneficiaries and recovery mechanics."
+  ],
+  "TAX-07": [
+    "Defines IRS as the United States Internal Revenue Service."
+  ],
+  "TAX-08": [
+    "Other Connection Taxes arise from a recipient\u2019s present or former connection with the taxing jurisdiction. The model excludes connections arising from the listed loan-document activities, including entering into or performing the transaction, receiving payments, taking or perfecting security, enforcing rights, and selling or assigning an interest.",
+    "This distinguishes an independent connection from one created merely by the financing. The term feeds into Connection Income Taxes, Excluded Taxes and the assignment exception in Other Taxes. Compare both the connection test and the activities excluded from it; a narrower list can change which tax risks remain with the borrower."
+  ],
+  "TAX-09": [
+    "Other Taxes cover transaction-related stamp, court, documentary, intangible, recording, filing and similar taxes arising from payments, execution, performance, enforcement, registration, security interests or other matters relating to a loan document. They are not limited to withholding from lender payments.",
+    "The definition generally excludes Other Connection Taxes imposed with respect to an assignment, but preserves coverage for the specified lender-replacement assignment. Other Taxes fall within Indemnified Taxes and have a separate direct-payment or agent-reimbursement obligation. The assignment exception and these overlapping payment routes should be reviewed together."
+  ],
+  "TAX-10": [
+    "Points to the participation clause for the Participant Register definition."
+  ],
+  "TAX-11": [
+    "Includes the administrative agent, lenders and issuing banks as Recipients."
+  ],
+  "TAX-12": [
+    "Taxes is the broad umbrella definition: present and future taxes, levies, duties, deductions, withholding including backup withholding, assessments, fees and other governmental charges, together with related interest, additions to tax and penalties.",
+    "Its breadth prevents coverage from turning solely on the label attached to a charge. It does not require the borrower to bear every defined Tax. Excluded Taxes, Indemnified Taxes, Other Taxes and each operative clause determine the actual allocation. Changes to interest, penalty or fee coverage can affect the economic scope even when the main withholding language is unchanged."
+  ],
+  "TAX-13": [
+    "Identifies a borrower that is a U.S. Person."
+  ],
+  "TAX-14": [
+    "Uses the United States Person definition in Code Section 7701(a)(30)."
+  ],
+  "TAX-15": [
+    "Identifies the portfolio-interest certificate. The model\u2019s reference to subsection (f) appears inconsistent with its placement in (g)."
+  ],
+  "TAX-16": [
+    "Includes the borrower or selected loan parties and the administrative agent as Withholding Agents."
+  ],
+  "TAX-17": [
+    "The tax limb of Increased Costs addresses certain taxes on loans, principal, letters of credit, commitments and attributable deposits, reserves, liabilities or capital. The surrounding clause requires a Change in Law and the specified increased-cost or reduced-receipt consequence before compensation is payable.",
+    "It expressly excludes Indemnified Taxes, limbs (b) through (d) of Excluded Taxes, and Connection Income Taxes. That is more specific than simply excluding all Excluded Taxes. Broadening an exclusion elsewhere may therefore leave an increased-cost recovery route intact. Compare the complete trigger, compensation language and interacting definitions, using the guide\u2019s historical bank-tax discussion as context rather than current market authority."
+  ],
+  "TAX-18": [
+    "For the Taxes section, Lender includes issuing banks and applicable law includes FATCA."
+  ],
+  "TAX-19": [
+    "Payments must be made without tax withholding unless applicable law requires it. The relevant Withholding Agent may make a required deduction and must timely remit it to the governmental authority, based on its good-faith determination.",
+    "If the tax is an Indemnified Tax, the borrower or selected loan party must increase the payment so the recipient receives the amount it would have received without withholding. This includes withholding on the additional payment itself. Excluded Taxes limit that economic protection, so the gross-up trigger, definitions, payment scope and documentation obligations must be read together."
+  ],
+  "TAX-20": [
+    "The borrower or selected loan parties must timely pay Other Taxes to the governmental authority in accordance with applicable law. At the administrative agent\u2019s option, they must instead timely reimburse the agent if it pays those taxes.",
+    "This creates a payment route for transaction-related taxes even when they are not withheld from a lender payment. The definition of Other Taxes controls the scope, including its assignment-related connection-tax exception and lender-replacement carve-back. Compare who must pay, the agent\u2019s choice of reimbursement, and any added timing or documentary conditions."
+  ],
+  "TAX-21": [
+    "The borrower or selected loan parties must indemnify each Recipient for Indemnified Taxes paid, payable or required to be withheld, including tax on amounts payable under the indemnity and related reasonable expenses. Payment is due within 10 days after demand. The model offers joint-and-several wording where multiple indemnitors are selected.",
+    "Coverage applies whether or not the tax was correctly or legally imposed. A lender\u2019s or agent\u2019s certificate is conclusive absent manifest error. These terms affect both exposure and enforcement: compare the tax category, indemnitors, deadline, expense coverage and certificate standard, together with any separate contest or refund rights."
+  ],
+  "TAX-22": [
+    "Each lender separately indemnifies the administrative agent within 10 days after demand for specified attributable taxes and reasonable expenses. Coverage includes Indemnified Taxes to the extent the agent has not already been indemnified by the borrower, participant-register failures, and Excluded Taxes attributable to that lender.",
+    "The clause protects the agent even if a tax was incorrectly imposed. Its certificate is conclusive absent manifest error, and it may set off amounts otherwise payable to the lender from loan-document or other sources. The first category avoids duplicate agent recovery without releasing the borrower\u2019s obligations. This is principally an allocation between lender and agent, not an additional borrower payment promise."
+  ],
+  "TAX-23": [
+    "After paying Taxes to a governmental authority under the Taxes section, the borrower or selected loan party must provide the administrative agent evidence as soon as practicable. The model permits an original or certified receipt, a copy of the return, or other evidence reasonably satisfactory to the agent.",
+    "The provision helps establish that tax amounts were actually remitted. It is separate from the duties to withhold, gross up or indemnify and does not impose a fixed number of days. Compare the trigger, delivery recipient, timing, alternative evidence and reasonableness standard; requiring only an unavailable original receipt could be materially more restrictive."
+  ],
+  "TAX-24": [
+    "Status of Lenders requires documentation supporting withholding exemptions or reductions and determining backup withholding and reporting treatment. For a U.S. Borrower, it specifies U.S.-lender forms and different foreign-lender routes for treaty, effectively connected income, portfolio-interest and intermediary situations, subject to the stated legal-entitlement limits. It also covers other prescribed forms and FATCA documentation.",
+    "The general cost/prejudice exception does not excuse the specified documents in subclauses (ii)(A), (B) and (D). Lenders must update expired, obsolete or inaccurate forms or promptly give written notice of legal inability. These duties support the payors\u2019 withholding decisions and the documentation-failure exclusion. Compare every component even if spread across sections; the model\u2019s historical form names are not a statement of which forms are currently appropriate."
+  ],
+  "TAX-25": [
+    "An indemnified party that determines in good faith it received a covered tax refund must share it with the indemnifier, limited to the related prior indemnity payments, net of out-of-pocket expenses and generally without interest except interest paid by the authority.",
+    "If the refund is reversed, the indemnifier must repay the shared amount on request, plus applicable charges. Sharing cannot leave the recipient worse off under the specified net-after-tax comparison, and tax returns and other confidential tax information remain protected. The model refers to refunds, not expressly to tax credits; extending sharing to credits changes the scope of the benefit-transfer obligation."
+  ],
+  "TAX-26": [
+    "Each party\u2019s obligations under the Taxes section survive agent resignation or replacement, lender assignments or replacement, commitment termination, and repayment, satisfaction or discharge of loan-document obligations.",
+    "The language preserves the covered obligations through both party changes and the end of the financing. It is not limited to the borrower\u2019s indemnity: lender indemnities, refunds or other duties may matter according to their terms. Compare the parties, events and obligations covered by any substitute survival wording elsewhere rather than assuming a general survival clause has the same reach."
+  ],
+  "TAX-27": [
+    "This carve-out excludes Taxes from the general borrower indemnity, except taxes representing losses, claims, damages and similar amounts arising from a non-tax claim. It helps keep the general indemnity from bypassing the specifically negotiated tax allocation.",
+    "The non-tax-claim exception preserves the stated category of tax-related loss. Compare the general indemnity and dedicated tax regime together: a broad general indemnity without the carve-out could create uncertainty about whether otherwise excluded tax costs are recoverable. The exact exception matters and should not be summarized as excluding every conceivable tax-related claim."
+  ],
+  "TAX-28": [
+    "The administrative agent, acting for this limited purpose as the borrower\u2019s agent, maintains assignment copies and a register of lender identities and addresses, commitments, principal and stated interest. Entries are conclusive absent manifest error, and the recorded person is treated as lender for agreement purposes.",
+    "The borrower and lenders may inspect it at reasonable times on reasonable prior notice. The register establishes the contractual ownership record and should be read with transfer mechanics and any registered-form provisions. Distinguish it from the Participant Register: the selling lender maintains that separate record of participation interests."
+  ],
+  "TAX-29": [
+    "Participants receive tax benefits subject to the Taxes section\u2019s requirements, including documentation delivered to the selling lender. They are subject to specified mitigation and replacement provisions, and their tax and increased-cost recovery is generally capped at the selling lender\u2019s entitlement, with a post-acquisition Change in Law exception.",
+    "The selling lender remains responsible for its obligations and maintains a Participant Register recording participant identities, principal and stated interest. Disclosure is limited by the stated registered-form purpose; entries control absent manifest error, and the administrative agent has no maintenance responsibility. Compare these tax protections separately from the general permission to participate, including cooperation with replacement measures and participant consent rights."
+  ]
+}

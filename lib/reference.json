@@ -1,0 +1,180 @@
+{
+  "status": "Draft extracted reference; review before production",
+  "source": "Annotated LSTA Model Credit Agreement.doc",
+  "items": [
+    {
+      "id": "TAX-01",
+      "title": "Code",
+      "source_section": "Definitions",
+      "model_text": "\u201cCode\u201d means the Internal Revenue Code of 1986."
+    },
+    {
+      "id": "TAX-02",
+      "title": "Connection Income Taxes",
+      "source_section": "Definitions",
+      "model_text": "\u201cConnection Income Taxes\u201d means Other Connection Taxes that are imposed on or measured by net income (however denominated) or that are franchise Taxes or branch profits Taxes."
+    },
+    {
+      "id": "TAX-03",
+      "title": "Excluded Taxes",
+      "source_section": "Definitions",
+      "model_text": "\u201cExcluded Taxes\u201d means any of the following Taxes imposed on or with respect to a Recipient or required to be withheld or deducted from a payment to a Recipient, (a) Taxes imposed on or measured by net income (however denominated), franchise Taxes, and branch profits Taxes, in each case, (i) imposed as a result of such Recipient being organized under the laws of, or having its principal office or, in the case of any Lender, its applicable lending office located in, the jurisdiction imposing such Tax (or any political subdivision thereof) or (ii) that are Other Connection Taxes, (b) in the case of a Lender, U.S. federal withholding Taxes imposed on amounts payable to or for the account of such Lender with respect to an applicable interest in a Loan or Commitment pursuant to a law in effect on the date on which (i) such Lender acquires such interest in the Loan or Commitment (other than pursuant to an assignment request by the Borrower under Section [Replacement of Lenders]) or (ii) such Lender changes its lending office, except in each case to the extent that, pursuant to Section [Taxes], amounts with respect to such Taxes were payable either to such Lender's assignor immediately before such Lender became a party hereto or to such Lender immediately before it changed its lending office, (c) Taxes attributable to such Recipient\u2019s failure to comply with Section [Taxes \u2013 Status of Lenders] and (d) any U.S. federal withholding Taxes imposed under FATCA. "
+    },
+    {
+      "id": "TAX-04",
+      "title": "FATCA",
+      "source_section": "Definitions",
+      "model_text": "\u201cFATCA\u201d means Sections 1471 through 1474 of the Code, as of the date of this Agreement (or any amended or successor version that is substantively comparable and not materially more onerous to comply with), any current or future regulations or official interpretations thereof and any agreement entered into pursuant to Section 1471(b)(1) of the Code."
+    },
+    {
+      "id": "TAX-05",
+      "title": "Foreign Lender",
+      "source_section": "Definitions",
+      "model_text": "\u201cForeign Lender\u201d means (a) if the Borrower is a U.S. Person, a Lender that is not a U.S. Person, and (b) if the Borrower is not a U.S. Person, a Lender that is resident or organized under the laws of a jurisdiction other than that in which the Borrower is resident for tax purposes.  "
+    },
+    {
+      "id": "TAX-06",
+      "title": "Indemnified Taxes",
+      "source_section": "Definitions",
+      "model_text": "\u201cIndemnified Taxes\u201d means (a) Taxes, other than Excluded Taxes, imposed on or with respect to any payment made by or on account of any obligation of [the Borrower] [any Loan Party] under any Loan Document and (b) to the extent not otherwise described in (a), Other Taxes."
+    },
+    {
+      "id": "TAX-07",
+      "title": "IRS",
+      "source_section": "Definitions",
+      "model_text": "\u201cIRS\u201d means the United States Internal Revenue Service."
+    },
+    {
+      "id": "TAX-08",
+      "title": "Other Connection Taxes",
+      "source_section": "Definitions",
+      "model_text": "\u201cOther Connection Taxes\u201d means, with respect to any Recipient, Taxes imposed as a result of a present or former connection between such Recipient and the jurisdiction imposing such Tax (other than connections arising from such Recipient having executed, delivered, become a party to, performed its obligations under, received payments under, received or perfected a security interest under, engaged in any other transaction pursuant to or enforced any Loan Document, or sold or assigned an interest in any Loan or Loan Document)."
+    },
+    {
+      "id": "TAX-09",
+      "title": "Other Taxes",
+      "source_section": "Definitions",
+      "model_text": "\u201cOther Taxes\u201d means all present or future stamp, court or documentary, intangible, recording, filing or similar Taxes that arise from any payment made under, from the execution, delivery, performance, enforcement or registration of, from the receipt or perfection of a security interest under, or otherwise with respect to, any Loan Document, except any such Taxes that are Other Connection Taxes imposed with respect to an assignment (other than an assignment made pursuant to Section [Mitigation Obligations; Replacement of Lenders \u2013 Replacement of Lenders])."
+    },
+    {
+      "id": "TAX-10",
+      "title": "Participant Register",
+      "source_section": "Definitions",
+      "model_text": "\u201cParticipant Register\u201d has the meaning specified in Section [Successors and Assigns](d)."
+    },
+    {
+      "id": "TAX-11",
+      "title": "Recipient",
+      "source_section": "Definitions",
+      "model_text": "\u201cRecipient\u201d means (a) the Administrative Agent, (b) any Lender or (c) any Issuing Bank, as applicable."
+    },
+    {
+      "id": "TAX-12",
+      "title": "Taxes",
+      "source_section": "Definitions",
+      "model_text": "\u201cTaxes\u201d means all present or future taxes, levies, imposts, duties, deductions, withholdings (including backup withholding), assessments, fees or other charges imposed by any Governmental Authority, including any interest, additions to tax or penalties applicable thereto."
+    },
+    {
+      "id": "TAX-13",
+      "title": "U.S. Borrower",
+      "source_section": "Definitions",
+      "model_text": "\u201cU.S. Borrower\u201d means any Borrower that is a U.S. Person."
+    },
+    {
+      "id": "TAX-14",
+      "title": "U.S. Person",
+      "source_section": "Definitions",
+      "model_text": "\u201cU.S. Person\u201d means any Person that is a \u201cUnited States Person\u201d as defined in Section 7701(a)(30) of the Code."
+    },
+    {
+      "id": "TAX-15",
+      "title": "U.S. Tax Compliance Certificate",
+      "source_section": "Definitions",
+      "model_text": "\u201cU.S. Tax Compliance Certificate\u201d has the meaning specified in Section [Taxes \u2013 Status of Lenders](f)."
+    },
+    {
+      "id": "TAX-16",
+      "title": "Withholding Agent",
+      "source_section": "Definitions",
+      "model_text": "\u201cWithholding Agent\u201d means [the Borrower] [any Loan Party] and the Administrative Agent."
+    },
+    {
+      "id": "TAX-17",
+      "title": "Increased Costs - tax allocation",
+      "source_section": "Increased Costs (a)(ii)",
+      "model_text": "(ii)\tsubject any Recipient to any Taxes (other than (A) Indemnified Taxes, (B) Taxes described in clauses (b) through (d) of the definition of Excluded Taxes and (C) Connection Income Taxes) on its loans, loan principal, letters of credit, commitments, or other obligations, or its deposits, reserves, other liabilities or capital attributable thereto; or"
+    },
+    {
+      "id": "TAX-18",
+      "title": "Defined Terms",
+      "source_section": "Taxes (a)",
+      "model_text": "(a)  Defined Terms.  For purposes of this Section [Taxes], the term \u201cLender\u201d includes any Issuing Bank and the term \u201capplicable law\u201d includes FATCA."
+    },
+    {
+      "id": "TAX-19",
+      "title": "Payments Free of Taxes",
+      "source_section": "Taxes (b)",
+      "model_text": "(b)  Payments Free of Taxes.  Any and all payments by or on account of any obligation of [the Borrower] [any Loan Party] under any Loan Document shall be made without deduction or withholding for any Taxes, except as required by applicable law.  If any applicable law (as determined in the good faith discretion of an applicable Withholding Agent) requires the deduction or withholding of any Tax from any such payment by a Withholding Agent, then the applicable Withholding Agent shall be entitled to make such deduction or withholding and shall timely pay the full amount deducted or withheld to the relevant Governmental Authority in accordance with applicable law and, if such Tax is an Indemnified Tax, then the sum payable by [the Borrower] [the applicable Loan Party] shall be increased as necessary so that after such deduction or withholding has been made (including such deductions and withholdings applicable to additional sums payable under this Section) the applicable Recipient receives an amount equal to the sum it would have received had no such deduction or withholding been made."
+    },
+    {
+      "id": "TAX-20",
+      "title": "Payment of Other Taxes by the Borrower",
+      "source_section": "Taxes (c)",
+      "model_text": "(c)  Payment of Other Taxes by the Borrower.  [The Borrower] [The Loan Parties] shall timely pay to the relevant Governmental Authority in accordance with applicable law, or at the option of the Administrative Agent timely reimburse it for the payment of, any Other Taxes."
+    },
+    {
+      "id": "TAX-21",
+      "title": "Indemnification by the Borrower",
+      "source_section": "Taxes (d)",
+      "model_text": "(d)  Indemnification by the Borrower.  [The Borrower] [The Loan Parties] shall [jointly and severally] indemnify each Recipient, within 10 days after demand therefor, for the full amount of any Indemnified Taxes (including Indemnified Taxes imposed or asserted on or attributable to amounts payable under this Section) payable or paid by such Recipient or required to be withheld or deducted from a payment to such Recipient and any reasonable expenses arising therefrom or with respect thereto, whether or not such Indemnified Taxes were correctly or legally imposed or asserted by the relevant Governmental Authority.  A certificate as to the amount of such payment or liability delivered to the Borrower by a Lender (with a copy to the Administrative Agent), or by the Administrative Agent on its own behalf or on behalf of a Lender, shall be conclusive absent manifest error."
+    },
+    {
+      "id": "TAX-22",
+      "title": "Indemnification by the Lenders",
+      "source_section": "Taxes (e)",
+      "model_text": "(e)  Indemnification by the Lenders.  Each Lender shall severally indemnify the Administrative Agent, within 10 days after demand therefor, for (i) any Indemnified Taxes attributable to such Lender (but only to the extent that [the Borrower] [any Loan Party] has not already indemnified the Administrative Agent for such Indemnified Taxes and without limiting the obligation of [the Borrower] [the Loan Parties] to do so), (ii) any Taxes attributable to such Lender\u2019s failure to comply with the provisions of Section [Successors and Assigns \u2013 Participations] relating to the maintenance of a Participant Register and (iii) any Excluded Taxes attributable to such Lender, in each case, that are payable or paid by the Administrative Agent in connection with any Loan Document, and any reasonable expenses arising therefrom or with respect thereto, whether or not such Taxes were correctly or legally imposed or asserted by the relevant Governmental Authority.  A certificate as to the amount of such payment or liability delivered to any Lender by the Administrative Agent shall be conclusive absent manifest error.  Each Lender hereby authorizes the Administrative Agent to set off and apply any and all amounts at any time owing to such Lender under any Loan Document or otherwise payable by the Administrative Agent to the Lender from any other source against any amount due to the Administrative Agent under this paragraph (e)."
+    },
+    {
+      "id": "TAX-23",
+      "title": "Evidence of Payments",
+      "source_section": "Taxes (f)",
+      "model_text": "(f)  Evidence of Payments.  As soon as practicable after any payment of Taxes by [the Borrower] [any Loan Party] to a Governmental Authority pursuant to this Section [Taxes], [the Borrower] [such Loan Party] shall deliver to the Administrative Agent the original or a certified copy of a receipt issued by such Governmental Authority evidencing such payment, a copy of the return reporting such payment or other evidence of such payment reasonably satisfactory to the Administrative Agent."
+    },
+    {
+      "id": "TAX-24",
+      "title": "Status of Lenders",
+      "source_section": "Taxes (g)",
+      "model_text": "(g)  Status of Lenders.  (i) Any Lender that is entitled to an exemption from or reduction of withholding Tax with respect to payments made under any Loan Document shall deliver to the Borrower and the Administrative Agent, at the time or times reasonably requested by the Borrower or the Administrative Agent, such properly completed and executed documentation reasonably requested by the Borrower or the Administrative Agent as will permit such payments to be made without withholding or at a reduced rate of withholding.  In addition, any Lender, if reasonably requested by the Borrower or the Administrative Agent, shall deliver such other documentation prescribed by applicable law or reasonably requested by the Borrower or the Administrative Agent as will enable the Borrower or the Administrative Agent to determine whether or not such Lender is subject to backup withholding or information reporting requirements.  Notwithstanding anything to the contrary in the preceding two sentences, the completion, execution and submission of such documentation (other than such documentation set forth in Section [Taxes\u2014Status of Lenders] (ii)(A), (ii)(B) and (ii)(D) below) shall not be required if in the Lender\u2019s reasonable judgment such completion, execution or submission would subject such Lender to any material unreimbursed cost or expense or would materially prejudice the legal or commercial position of such Lender.\n\n(ii) Without limiting the generality of the foregoing, in the event that the Borrower is a U.S. Borrower, \n\n(A) any Lender that is a U.S. Person shall deliver to the Borrower and the Administrative Agent on or prior to the date on which such Lender becomes a Lender under this Agreement (and from time to time thereafter upon the reasonable request of the Borrower or the Administrative Agent), executed copies of IRS Form W-9 certifying that such Lender is exempt from U.S. federal backup withholding tax; \n\n(B) any Foreign Lender shall, to the extent it is legally entitled to do so, deliver to the Borrower and the Administrative Agent (in such number of copies as shall be requested by the recipient) on or prior to the date on which such Foreign Lender becomes a Lender under this Agreement (and from time to time thereafter upon the reasonable request of the Borrower or the Administrative Agent), whichever of the following is applicable:\n\n(1)  in the case of a Foreign Lender claiming the benefits of an income tax treaty to which the United States is a party (x) with respect to payments of interest under any Loan Document, executed copies of IRS Form W-8BEN establishing an exemption from, or reduction of, U.S. federal withholding Tax pursuant to the \u201cinterest\u201d article of such tax treaty and (y) with respect to any other applicable payments under any Loan Document, IRS Form W-8BEN establishing an exemption from, or reduction of, U.S. federal withholding Tax pursuant to the \u201cbusiness profits\u201d or \u201cother income\u201d article of such tax treaty;\n\n(2)  executed copies of IRS Form W-8ECI;\n\n(3) in the case of a Foreign Lender claiming the benefits of the exemption for portfolio interest under Section 881(c) of the Code, (x) a certificate substantially in the form of Exhibit [J]-1 to the effect that such Foreign Lender is not a \u201cbank\u201d within the meaning of Section 881(c)(3)(A) of the Code, a \u201c10 percent shareholder\u201d of the Borrower within the meaning of Section 881(c)(3)(B) of the Code, or a \u201ccontrolled foreign corporation\u201d described in Section 881(c)(3)(C) of the Code (a \u201cU.S. Tax Compliance Certificate\u201d) and (y) executed copies of IRS Form W-8BEN; or\n\n(4) to the extent a Foreign Lender is not the beneficial owner, executed copies of IRS Form W-8IMY, accompanied by IRS Form W-8ECI, IRS Form W-8BEN, a U.S. Tax Compliance Certificate substantially in the form of Exhibit [J]-2 or Exhibit [J]-3, IRS Form W-9, and/or other certification documents from each beneficial owner, as applicable; provided that if the Foreign Lender is a partnership and one or more direct or indirect partners of such Foreign Lender are claiming the portfolio interest exemption, such Foreign Lender may provide a U.S. Tax Compliance Certificate substantially in the form of Exhibit [J]-4 on behalf of each such direct and indirect partner;\n\n(C)  any Foreign Lender shall, to the extent it is legally entitled to do so, deliver to the Borrower and the Administrative Agent (in such number of copies as shall be requested by the recipient) on or prior to the date on which such Foreign Lender becomes a Lender under this Agreement (and from time to time thereafter upon the reasonable request of the Borrower or the Administrative Agent), executed copies of any other form prescribed by applicable law as a basis for claiming exemption from or a reduction in U.S. federal withholding Tax, duly completed, together with such supplementary documentation as may be prescribed by applicable law to permit the Borrower or the Administrative Agent to determine the withholding or deduction required to be made; and\n\n(D) if a payment made to a Lender under any Loan Document would be subject to U.S. federal withholding Tax imposed by FATCA if such Lender were to fail to comply with the applicable reporting requirements of FATCA (including those contained in Section 1471(b) or 1472(b) of the Code, as applicable), such Lender shall deliver to the Borrower and the Administrative Agent at the time or times prescribed by law and at such time or times reasonably requested by the Borrower or the Administrative Agent such documentation prescribed by applicable law (including as prescribed by Section 1471(b)(3)(C)(i) of the Code) and such additional documentation reasonably requested by the Borrower or the Administrative Agent as may be necessary for the Borrower and the Administrative Agent to comply with their obligations under FATCA and to determine that such Lender has complied with such Lender\u2019s obligations under FATCA or to determine the amount to deduct and withhold from such payment.  Solely for purposes of this clause (D), \u201cFATCA\u201d shall include any amendments made to FATCA after the date of this Agreement.\n\nEach Lender agrees that if any form or certification it previously delivered expires or becomes obsolete or inaccurate in any respect, it shall update such form or certification or promptly notify the Borrower and the Administrative Agent in writing of its legal inability to do so."
+    },
+    {
+      "id": "TAX-25",
+      "title": "Treatment of Certain Refunds",
+      "source_section": "Taxes (h)",
+      "model_text": "(h)  Treatment of Certain Refunds.  If any party determines, in its sole discretion exercised in good faith, that it has received a refund of any Taxes as to which it has been indemnified pursuant to this Section [Taxes] (including by the payment of additional amounts pursuant to this Section [Taxes]), it shall pay to the indemnifying party an amount equal to such refund (but only to the extent of indemnity payments made under this Section with respect to the Taxes giving rise to such refund), net of all out-of-pocket expenses (including Taxes) of such indemnified party and without interest (other than any interest paid by the relevant Governmental Authority with respect to such refund).  Such indemnifying party, upon the request of such indemnified party, shall repay to such indemnified party the amount paid over pursuant to this paragraph (h) (plus any penalties, interest or other charges imposed by the relevant Governmental Authority) in the event that such indemnified party is required to repay such refund to such Governmental Authority.  Notwithstanding anything to the contrary in this paragraph (h), in no event will the indemnified party be required to pay any amount to an indemnifying party pursuant to this paragraph (h) the payment of which would place the indemnified party in a less favorable net after-Tax position than the indemnified party would have been in if the Tax subject to indemnification and giving rise to such refund had not been deducted, withheld or otherwise imposed and the indemnification payments or additional amounts with respect to such Tax had never been paid.  This paragraph shall not be construed to require any indemnified party to make available its Tax returns (or any other information relating to its Taxes that it deems confidential) to the indemnifying party or any other Person."
+    },
+    {
+      "id": "TAX-26",
+      "title": "Survival",
+      "source_section": "Taxes (i)",
+      "model_text": "(i)  Survival.  Each party\u2019s obligations under this Section [Taxes] shall survive the resignation or replacement of the Administrative Agent or any assignment of rights by, or the replacement of, a Lender, the termination of the Commitments and the repayment, satisfaction or discharge of all obligations under any Loan Document."
+    },
+    {
+      "id": "TAX-27",
+      "title": "General indemnity - tax carve-out",
+      "source_section": "Expenses; Indemnity; Damage Waiver (b)",
+      "model_text": "This Section [__](b) shall not apply with respect to Taxes other than any Taxes that represent losses, claims, damages, etc. arising from any non-Tax claim."
+    },
+    {
+      "id": "TAX-28",
+      "title": "Register",
+      "source_section": "Successors and Assigns (c)",
+      "model_text": "(c)\tRegister.  The Administrative Agent, acting solely for this purpose as an agent of the Borrower, shall maintain at one of its offices in [_______________] a copy of each Assignment and Assumption delivered to it and a register for the recordation of the names and addresses of the Lenders, and the Commitments of, and principal amounts (and stated interest) of the Loans owing to, each Lender pursuant to the terms hereof from time to time (the \u201cRegister\u201d).  The entries in the Register shall be conclusive absent manifest error, and the Borrower, the Administrative Agent and the Lenders shall treat each Person whose name is recorded in the Register pursuant to the terms hereof as a Lender hereunder for all purposes of this Agreement.  The Register shall be available for inspection by the Borrower and any Lender, at any reasonable time and from time to time upon reasonable prior notice. "
+    },
+    {
+      "id": "TAX-29",
+      "title": "Participations",
+      "source_section": "Successors and Assigns (d)",
+      "model_text": "(d)\tParticipations.  Any Lender may at any time, without the consent of, or notice to, the Borrower or the Administrative Agent, sell participations to any Person (other than a natural Person, or a holding company, investment vehicle or trust for, or owned and operated for the primary benefit of, a natural Person, or the Borrower or any of the Borrower\u2019s Affiliates or Subsidiaries) (each, a \u201cParticipant\u201d) in all or a portion of such Lender\u2019s rights and/or obligations under this Agreement (including all or a portion of its Commitment and/or the Loans owing to it); provided that (i)\u00a0such Lender\u2019s obligations under this Agreement shall remain unchanged, (ii)\u00a0such Lender shall remain solely responsible to the other parties hereto for the performance of such obligations, and (iii)\u00a0the Borrower, the Administrative Agent, the Issuing Banks and Lenders shall continue to deal solely and directly with such Lender in connection with such Lender\u2019s rights and obligations under this Agreement.  For the avoidance of doubt, each Lender shall be responsible for the indemnity under Section [Indemnification of the Administrative Agent] (d) with respect to any payments made by such Lender to its Participant(s).\n\nAny agreement or instrument pursuant to which a Lender sells such a participation shall provide that such Lender shall retain the sole right to enforce this Agreement and to approve any amendment, modification or waiver of any provision of this Agreement; provided that such agreement or instrument may provide that such Lender will not, without the consent of the Participant, agree to any amendment, modification or waiver [with respect to the following:  _________ ] [described in  Section  [provision relating to amendments requiring unanimous consent of the Lenders]] that affects such Participant.  The Borrower agrees that each Participant shall be entitled to the benefits of Sections [Increased Costs], [Breakage Indemnity] and [Taxes] (subject to the requirements and limitations therein, including the requirements under Section [Taxes \u2013 Status of Lenders] (it being understood that the documentation required under Section [Taxes \u2013 Status of Lenders] shall be delivered to the participating Lender)) to the same extent as if it were a Lender and had acquired its interest by assignment pursuant to paragraph (b) of this Section; provided that such Participant (A) agrees to be subject to the provisions of Sections [Mitigation Obligations; Replacement of Lenders] as if it were an assignee under paragraph (b) of this Section; and (B) shall not be entitled to receive any greater payment under Sections [Increased Costs] or [Taxes], with respect to any participation, than its participating Lender would have been entitled to receive, except to the extent such entitlement to receive a greater payment results from a Change in Law that occurs after the Participant acquired the applicable participation.  Each Lender that sells a participation agrees, at the Borrower's request and expense, to use reasonable efforts to cooperate with the Borrower to effectuate the provisions of Section [Replacement of Lenders] with respect to any Participant.  To the extent permitted by law, each Participant also shall be entitled to the benefits of Section [Right of Setoff] as though it were a Lender; provided that such Participant agrees to be subject to Section [Sharing of Payments by Lenders] as though it were a Lender.  Each Lender that sells a participation shall, acting solely for this purpose as a non-fiduciary agent of the Borrower, maintain a register on which it enters the name and address of each Participant and the principal amounts (and stated interest) of each Participant\u2019s interest in the Loans or other obligations under the Loan Documents (the \u201cParticipant Register\u201d); provided that no Lender shall have any obligation to disclose all or any portion of the Participant Register (including the identity of any Participant or any information relating to a Participant's interest in any commitments, loans, letters of credit or its other obligations under any Loan Document) to any Person except to the extent that such disclosure is necessary to establish that such commitment, loan, letter of credit or other obligation is in registered form under Section 5f.103-1(c) of the United States Treasury Regulations.  The entries in the Participant Register shall be conclusive absent manifest error, and such Lender shall treat each Person whose name is recorded in the Participant Register as the owner of such participation for all purposes of this Agreement notwithstanding any notice to the contrary.  For the avoidance of doubt, the Administrative Agent (in its capacity as Administrative Agent) shall have no responsibility for maintaining a Participant Register."
+    }
+  ]
+}
