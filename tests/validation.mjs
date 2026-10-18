@@ -59,3 +59,12 @@ for (const ref of reference.items) {
  assert.equal(result.action,'');
 }
 console.log('Passed: annotated exact wording for all 29 provisions needs no change.');
+
+const {default:docToText}=await import('../lib/doc-parser.js');
+const docStories=docToText.sections(fs.readFileSync('public/annotated-lsta-model.doc'));
+assert.ok(docStories.body.includes('Internal Revenue Code of 1986'));
+assert.ok(docStories.body.includes('Excluded Taxes'));
+assert.ok(docStories.body.includes('Status of Lenders'));
+assert.ok(docStories.footnotes.length>100);
+assert.equal(docToText.sections(new Uint8Array(512)),null);
+console.log('Passed: original binary DOC body and footnotes, invalid DOC rejected.');
