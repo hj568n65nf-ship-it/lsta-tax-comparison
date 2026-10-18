@@ -46,3 +46,16 @@ console.log('Passed: punctuation differences are not treated as exact matches.')
 const {highlightedAgreementHtml}=await import('data:text/javascript;base64,'+Buffer.from(highlightSource).toString('base64'));
 const exported=highlightedAgreementHtml({pages:[{number:1,text:'<script>alert(1)</script> ABC'}],items:[{id:'TAX-01',evidence:[{page:1,quote:'ABC'}]}],name:'<img src=x>',side:'borrower',demo:true,references:[{id:'TAX-01',title:'Code'},{id:'TAX-02',title:'Missing'}]});assert.ok(exported.includes('&lt;script&gt;'));assert.ok(!exported.includes('<script>'));assert.ok(exported.includes('<mark'));assert.ok(exported.includes('No verified passage'));assert.ok(exported.includes('Sample Expected Findings'));assert.ok(exported.includes('Content-Security-Policy'));
 console.log('Passed: highlighted HTML download, source escaping, reference labels, missing passages and sample labeling.');
+
+// Annotation markers must not make identical contractual text merely equivalent.
+for (const ref of reference.items) {
+ const raw=base();
+ const quote='*'+ref.model_text.trim();
+ raw.items.find(r=>r.id===ref.id).status='substantively equivalent';
+ raw.items.find(r=>r.id===ref.id).evidence=[{page:1,section:'Reference wording',quote}];
+ const result=validateReport(raw,[{number:1,text:quote}]).items.find(r=>r.id===ref.id);
+ assert.equal(result.status,'no change needed',ref.id);
+ assert.equal(result.implication,'No change needed.');
+ assert.equal(result.action,'');
+}
+console.log('Passed: annotated exact wording for all 29 provisions needs no change.');
