@@ -68,3 +68,21 @@ assert.ok(docStories.body.includes('Status of Lenders'));
 assert.ok(docStories.footnotes.length>100);
 assert.equal(docToText.sections(new Uint8Array(512)),null);
 console.log('Passed: original binary DOC body and footnotes, invalid DOC rejected.');
+
+const clientSource=fs.readFileSync('lib/client-analysis.ts','utf8').replace("import {analysisPrompt} from './analysis-prompt';","const analysisPrompt=()=> 'Test comparison';").replace("from './analysis'",`from '${analysisUrl}'`);
+const clientJs=ts.transpileModule(clientSource,{compilerOptions:{module:ts.ModuleKind.ES2022,target:ts.ScriptTarget.ES2022}}).outputText;
+const {analyzeInBrowser}=await import('data:text/javascript;base64,'+Buffer.from(clientJs).toString('base64'));
+const originalFetch=globalThis.fetch;
+try {
+ const calls=[];let fallbackNotices=0;
+ const ok=()=>new Response(JSON.stringify({model:'test/free',choices:[{finish_reason:'stop',message:{content:JSON.stringify(base())}}]}));
+ globalThis.fetch=async(url,options)=>{const body=JSON.parse(options.body);calls.push(body.model);return calls.length===1?new Response('{}',{status:402}):ok();};
+ const paid=await analyzeInBrowser(pages,'borrower',{apiKey:'test',model:'openai/gpt-6.1-sol'},()=>fallbackNotices++);
+ assert.deepEqual(calls,['openai/gpt-6.1-sol','openrouter/free']);assert.equal(paid.usedFreeFallback,true);assert.equal(fallbackNotices,1);
+ calls.length=0;globalThis.fetch=async(url,options)=>{calls.push(JSON.parse(options.body).model);return new Response('{}',{status:429});};
+ await assert.rejects(()=>analyzeInBrowser(pages,'borrower',{apiKey:'test',model:'openrouter/free'}),/free model request limit/);assert.deepEqual(calls,['openrouter/free']);
+ calls.length=0;globalThis.fetch=async(url,options)=>{calls.push(JSON.parse(options.body).model);return ok();};
+ await analyzeInBrowser(pages,'borrower',{apiKey:'test',model:'openai/gpt-6-astra'});assert.deepEqual(calls,['openai/gpt-6-astra']);
+ calls.length=0;await analyzeInBrowser(pages,'borrower',{apiKey:'test',model:'unrecognized'});assert.deepEqual(calls,['openrouter/free']);
+}finally{globalThis.fetch=originalFetch;}
+console.log('Passed: selected models, paid-to-free fallback, free never escalates to paid, safe default.');
