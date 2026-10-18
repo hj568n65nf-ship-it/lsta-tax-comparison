@@ -84,7 +84,7 @@ try {
  await assert.rejects(()=>analyzeInBrowser(requestPages,'borrower',{apiKey:'test',model:'openrouter/free'}),/free model request limit/);assert.deepEqual(calls,['openrouter/free']);
  calls.length=0;globalThis.fetch=async(url,options)=>{calls.push(JSON.parse(options.body).model);return ok();};
  await analyzeInBrowser(requestPages,'borrower',{apiKey:'test',model:'openai/gpt-6-astra'});assert.deepEqual(calls,['openai/gpt-6-astra']);
- for(const model of ['openai/gpt-6-luna','anthropic/claude-haiku-5.5','anthropic/claude-sonnet-5.5','anthropic/claude-opus-5.5','deepseek/deepseek-v4.1-flash','deepseek/deepseek-v4-pro-0813','qwen/qwen3.8-flash','qwen/qwen3.8-max-0902']){calls.length=0;await analyzeInBrowser(requestPages,'borrower',{apiKey:'test',model});assert.deepEqual(calls,[model]);}
+ for(const model of ['openai/gpt-6-luna','anthropic/claude-haiku-5.5','anthropic/claude-sonnet-5.5','anthropic/claude-opus-5.5','deepseek/deepseek-v4.1-flash','deepseek/deepseek-v4-pro-0813','qwen/qwen3.8-flash','qwen/qwen3.8-max-0902','google/gemini-3.5-flash-lite','google/gemini-3.8-flash']){calls.length=0;await analyzeInBrowser(requestPages,'borrower',{apiKey:'test',model});assert.deepEqual(calls,[model]);}
  calls.length=0;await analyzeInBrowser(requestPages,'borrower',{apiKey:'test',model:'unrecognized'});assert.deepEqual(calls,['openrouter/free']);
 }finally{globalThis.fetch=originalFetch;}
 console.log('Passed: selected models, paid-to-free fallback, free never escalates to paid, safe default.');
