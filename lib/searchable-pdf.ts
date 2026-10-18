@@ -12,7 +12,7 @@ function loadScript(src:string){
 }
 function checkCancelled(signal:AbortSignal){if(signal.aborted)throw Error('PDF conversion cancelled.');}
 export async function extractSearchablePdf(file:File,onProgress:(message:string)=>void,signal:AbortSignal){
- const pdfjs=await import('pdfjs-dist');
+ const pdfjs=await import('pdfjs-dist/legacy/build/pdf.mjs');
  pdfjs.GlobalWorkerOptions.workerSrc=new URL('pdf.worker.min.mjs',document.baseURI).href;
  const bytes=await file.arrayBuffer();
  checkCancelled(signal);
