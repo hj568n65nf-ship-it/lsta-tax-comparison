@@ -30,3 +30,5 @@ th{font-size:11px;letter-spacing:.1px;text-transform:none;color:#78538e;font-wei
 .model-select{display:flex;flex-direction:column;gap:7px;color:#5a4968;font-size:13px}.model-select select{font:inherit;color:#3c2255;background:white;border:1px solid #d8cfe2;border-radius:8px;padding:11px 34px 11px 12px;max-width:100%}.actionbar{gap:16px;align-items:flex-end;flex-wrap:wrap}.model-notice{font-size:14px;color:#5a4968;padding:12px 0}
 
 .pdf-note{font-size:13px;line-height:1.5;color:#6a5878;margin:12px 0}.pdf-conversion{font-size:14px;color:#593875;margin-top:12px}.pdf-conversion p{margin-bottom:10px}.searchable-download{display:inline-block;margin-top:8px}
+
+.sample-title{display:flex;align-items:center;flex-wrap:wrap;gap:12px;color:#4b2b62;font-size:15px;font-weight:500;line-height:1.4}.sample-brand{display:inline-flex;align-items:center;gap:8px;font-size:18px;font-weight:600;letter-spacing:-.5px;line-height:1.05}.sample-brand .brand-icon{flex:none;width:31px;height:34px;font-size:23px;letter-spacing:0}.sample-title+p{margin-top:12px}@media(max-width:650px){.sample-title{gap:10px;font-size:14px}.sample-brand{font-size:17px}}
